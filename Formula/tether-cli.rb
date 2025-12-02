@@ -1,4 +1,4 @@
-class Tether < Formula
+class TetherCli < Formula
   desc "Sync dotfiles and packages across machines"
   homepage "https://github.com/paddo-tech/tether-cli"
   url "https://github.com/paddo-tech/tether-cli/archive/refs/tags/v0.1.0-beta.1.tar.gz"
