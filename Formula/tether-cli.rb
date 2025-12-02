@@ -1,8 +1,8 @@
 class TetherCli < Formula
   desc "Sync dotfiles and packages across machines"
   homepage "https://github.com/paddo-tech/tether-cli"
-  url "https://github.com/paddo-tech/tether-cli/archive/refs/tags/v0.1.0-beta.1.tar.gz"
-  sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+  url "https://github.com/paddo-tech/tether-cli/archive/refs/tags/v1.0.0.tar.gz"
+  sha256 "311548a39e6ee74bca4bece179d76cfff099a85e802018f4b77463d7ef4758e6"
   license "MIT"
 
   depends_on "rust" => :build
