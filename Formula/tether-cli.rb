@@ -11,6 +11,15 @@ class TetherCli < Formula
     system "cargo", "install", *std_cargo_args
   end
 
+  def caveats
+    <<~EOS
+      To get started, run:
+        tether init
+
+      This will set up your sync repository and start the background daemon.
+    EOS
+  end
+
   test do
     assert_match "tether", shell_output("#{bin}/tether --help")
   end
