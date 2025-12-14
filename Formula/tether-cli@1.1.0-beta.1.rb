@@ -1,4 +1,4 @@
-class TetherCliAT1_1_0_beta_1 < Formula
+class TetherCliAT110Beta1 < Formula
   desc "Sync dotfiles and packages across machines"
   homepage "https://github.com/paddo-tech/tether-cli"
   version "1.1.0-beta.1"
