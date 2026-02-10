@@ -1,17 +1,17 @@
 class TetherCli < Formula
   desc "Sync dotfiles and packages across machines"
   homepage "https://github.com/paddo-tech/tether-cli"
-  version "1.9.0"
+  version "1.9.1"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/paddo-tech/tether-cli/releases/download/v1.9.0/tether-x86_64-apple-darwin.tar.gz"
-      sha256 "3364b10ce820bd9d4940769c4f65c8d563573f5dfda628f08dc96a3e0e521bec"
+      url "https://github.com/paddo-tech/tether-cli/releases/download/v1.9.1/tether-x86_64-apple-darwin.tar.gz"
+      sha256 "d3499b17494ede4d8249dbdc83d42626efb597ca9388feac2368cc8b5a00c8a4"
     end
     on_arm do
-      url "https://github.com/paddo-tech/tether-cli/releases/download/v1.9.0/tether-aarch64-apple-darwin.tar.gz"
-      sha256 "85d135f899d78fb74b1eb3bc5e78f1d6c03031f319545f5feff6afb9379344b5"
+      url "https://github.com/paddo-tech/tether-cli/releases/download/v1.9.1/tether-aarch64-apple-darwin.tar.gz"
+      sha256 "9cb3b9ef059358ebe00fa00af47141cfe3b0a3bb4a0319bad57fa2d0c4f3a230"
     end
   end
 
