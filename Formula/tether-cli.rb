@@ -1,28 +1,28 @@
 class TetherCli < Formula
   desc "Sync dotfiles and packages across machines"
   homepage "https://github.com/paddo-tech/tether-cli"
-  version "2.4.1"
+  version "2.5.0"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/paddo-tech/tether-cli/releases/download/v2.4.1/tether-x86_64-apple-darwin.tar.gz"
-      sha256 "b23dbb78abef1fd98eb44f707c0d9f1d66f573d622cd51760fc7d14a8ee98914"
+      url "https://github.com/paddo-tech/tether-cli/releases/download/v2.5.0/tether-x86_64-apple-darwin.tar.gz"
+      sha256 "f81329d15e10be7753f01a295d925326a400dea24ca51f4ca72db27c6f98fd3d"
     end
     on_arm do
-      url "https://github.com/paddo-tech/tether-cli/releases/download/v2.4.1/tether-aarch64-apple-darwin.tar.gz"
-      sha256 "1e8c8681a38ba85ed221cd385a6f75f0cfe843645c799cbbeb2a8758a9d9e295"
+      url "https://github.com/paddo-tech/tether-cli/releases/download/v2.5.0/tether-aarch64-apple-darwin.tar.gz"
+      sha256 "0692f3dace808e5a402b04b758f7d4c1ea4254618235710a32b35b5b062284dd"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/paddo-tech/tether-cli/releases/download/v2.4.1/tether-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "2d5a4b2a1622f1fea8789d476503fabef0f0dda49fcd742671f8dc590f5f82e4"
+      url "https://github.com/paddo-tech/tether-cli/releases/download/v2.5.0/tether-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "bcf7a1dc2f87a95622755f10b40ab4f3aea408e3fc10e2eb3597f2665949cf58"
     end
     on_arm do
-      url "https://github.com/paddo-tech/tether-cli/releases/download/v2.4.1/tether-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "d24cd455b107ed573900221d7aa79521d33381c01f21b13f24991b24c2b2db68"
+      url "https://github.com/paddo-tech/tether-cli/releases/download/v2.5.0/tether-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "296d9c9d983618b8c343c9c280a6fce1a2164c97e656bd1e98173ded319fc34e"
     end
   end
 
